@@ -1,0 +1,42 @@
+.memo-picture{
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+}
+
+.memo-description{
+  display: inline-block;
+  width: 200px;
+  margin-left: 10px;
+  vertical-align: top;
+}
+
+.memo-title{
+  font-size: 141%;
+  margin-bottom: .75rem;
+}
+.memo-details{
+  margin-bottom: .5rem;
+}
+
+.memo-timestamp{
+  display: inline-block;
+  font-size: 80%;
+  color: #999;
+}
+
+.memo-place{
+  display: inline-block;
+  font-size: 80%;
+  color: #999;
+  margin-right: .5rem;
+}
+
+
+#pageTitle{
+  top: 0;
+}
+
+#memo-picture{
+  width: 100%;
+}

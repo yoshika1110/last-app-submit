@@ -1,0 +1,25 @@
+{
+  "version": "0.1.0",
+  "name": "Simple memo app",
+  "description": "シンプルなメモアプリ",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/img/icons/icon16x16.png",
+    "48": "/img/icons/icon48x48.png",
+    "60": "/img/icons/icon60x60.png",
+    "128": "/img/icons/icon128x128.png"
+  },
+  "developer": {
+    "name": "N.Shimizu",
+    "url": "http://chikoski.info/"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+    "permissions":{
+      "geolocation": {
+        "description": "メモに現在位置を追加するために利用します"
+      }
+    },
+  "default_locale": "ja"
+}
